@@ -16,7 +16,7 @@ def start_cmd(message):
     bot.send_message(message.chat.id,"Бот создан @vloov_q")
 
 @bot.message_handler(commands = ["funfact"])
-def start_cmd(message):
+def funfacts(message):
     facts = [
         "На самом деле Даен не огурец, а морковь",
         "Рик с-137 искал Рика Прайма 24 лет",
