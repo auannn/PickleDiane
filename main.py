@@ -2,7 +2,7 @@ import telebot
 import random
 import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = none
 
 # Создайте бота
 bot = telebot.TeleBot(TOKEN)
